@@ -11,6 +11,8 @@ print("""
 
 #imports
 from dhooks import Webhook
+import time
+import os
 
 #prompts
 message = input("What do you want to send?: ")
@@ -18,4 +20,12 @@ webhookurl = Webhook(input("Enter webhook: "))
 
 #send message
 webhookurl.send(message)
-print(f"sent: {message}")
+
+#print
+print("------------------------------------------------")
+
+#delay for 2 seconds
+time.sleep(2)
+
+#call start.bat
+os.system('call start.bat')
