@@ -11,7 +11,6 @@ print("""
 
 #imports
 from dhooks import Webhook
-import time
 
 #prompts
 message = input("What do you want to send?: ")
