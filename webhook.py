@@ -6,7 +6,7 @@ print("""
                              |_____|___|___|__|__|___|___|_,_|
                
                                        Made by Kev
-                                     Github: KevvZzz
+                                     Github: keptz
 """)
 
 #imports
@@ -18,14 +18,7 @@ import os
 message = input("What do you want to send?: ")
 webhookurl = Webhook(input("Enter webhook: "))
 
-#send message
 webhookurl.send(message)
-
-#print
 print("------------------------------------------------")
-
-#delay for 2 seconds
 time.sleep(2)
-
-#call start.bat
 os.system('call start.bat')
