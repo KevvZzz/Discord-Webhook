@@ -1,4 +1,4 @@
 @echo off
 
-echo made by kev#9902
+echo made by keptz
 call python webhook.py
