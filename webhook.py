@@ -19,6 +19,3 @@ message = input("What do you want to send?: ")
 webhookurl = Webhook(input("Enter webhook: "))
 
 webhookurl.send(message)
-print("------------------------------------------------")
-time.sleep(2)
-os.system('call start.bat')
